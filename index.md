@@ -3,9 +3,11 @@
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{base}" title="\mathbf{I}_{base}" />
 
-`$\mathbf{I}_{base}$`为内容图像， `$\mathbf{I}_{style}$`为风格图像, `$\mathbf{I}_{?}$`为合成的图像
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{base}" title="\mathbf{I}_{base}" />为内容图像,
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{style}" title="\mathbf{I}_{style}" />为风格图像,
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{?}" title="\mathbf{I}_{?}" />为合成的图像
 
-现在想要的结果是`$\mathbf{I}_{?}$`跟`$\mathbf{I}_{base}$`在内容上相似，`$\mathbf{I}_{?}$`跟`$\mathbf{I}_{style}$`在风格上相似。
+现在想要的结果是<img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{?}" title="\mathbf{I}_{?}" />跟<img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{base}" title="\mathbf{I}_{base}" />在内容上相似，<img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{?}" title="\mathbf{I}_{?}" />跟<img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{style}" title="\mathbf{I}_{style}" />在风格上相似。
 
 可以写出个目标函数了：
 
