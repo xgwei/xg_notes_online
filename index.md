@@ -23,12 +23,12 @@ content loss要求形状相似，style loss要求styple相似，TV loss 只是�
 先上代码
 
 - content loss function
-```
+```python
 def content_loss(base, combination):
     return K.sum(K.square(combination - base))
 ``` 
 - content loss 用的层的结果
-``` 
+```python
 block5_conv2
 ``` 
 content loss要求形状相似，所以用包含位置的square error
@@ -38,7 +38,7 @@ content只需要比较深的一层（downsample好多次后的特征）。这是
 
 先上代码
 
-```
+```python
 # the gram matrix of an image tensor (feature-wise outer product)
 
 
@@ -68,12 +68,13 @@ def style_loss(style, combination):
     return K.sum(K.square(S - C)) / (4. * (channels ** 2) * (size ** 2))
 ```
 这里用到了5层的feature去作为风格相似度参照。为什么呢？可以想如果只有一层，feature dot product相似的意思就是两个加起来和相似，其实限制不了什么，仅仅改变scale就能做得到。如果多层feature dot 都相似，就有多一些的限制力在里面了。（不过只是每层和相似就能限制风格因素也挺令人惊讶的。）
-
+```python
     block1_conv1
     block2_conv1
     block3_conv1
     block4_conv1
     block5_conv1
+```
 ### TV loss
 最后当然再加个TV loss 让整个结果再平滑些，没有细小的噪声。这也是为什么通常用作风格化转换都是把真实图转换为油画或动画风格，因为TV只能消除细节并不能增加细节。可以想象把油画变真实应该效果不会太好。
 
@@ -87,7 +88,7 @@ def style_loss(style, combination):
 ### vgg 19 model.summary()
 这里再附上 vgg 19 的模型总结，上面提到的层都能在此找到
 
-```
+```python
 # vgg 19 model.summary()
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
