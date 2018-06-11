@@ -16,6 +16,7 @@
 ```math
 E=\left \| f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base}) \right \|_{anyerror}+\left \| f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style}) \right \|_{anyerror}+TV(\mathbf{I}_{?})
 ```
+
 content loss要求形状相似，style loss要求styple相似，TV loss 只是想让噪声小点看不出破绽
 各个error之间当然要有个常数来确定下各自的权重。 有了这个函数，只要能求导，就能解出来了。
 
