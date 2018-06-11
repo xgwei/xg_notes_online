@@ -1,4 +1,6 @@
 
+## 本文是我学习keras示例程序neural style tranfer 的一些记录
+
 问题： 有两张图，想把一张的转换为另一张的风格
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{base}" title="\mathbf{I}_{base}" />为内容图像,
