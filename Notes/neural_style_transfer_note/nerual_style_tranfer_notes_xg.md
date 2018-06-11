@@ -20,7 +20,7 @@ xiguang.wei@gmail.com
 content loss要求形状相似，style loss要求styple相似，TV loss 只是想让噪声小点看不出破绽
 各个error之间当然要有个常数来确定下各自的权重。 有了这个函数，只要能求导，就能解出来了。
 
-<img src="./style_tranfer_pic1.jpgg" alt="drawing" width="200px"/>
+<img src="./style_tranfer_pic1.jpg" alt="drawing" width="200px"/>
 
 ==那么问题来了，content loss， style loss 该怎么定义呢？==
 
