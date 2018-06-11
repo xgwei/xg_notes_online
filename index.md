@@ -1,6 +1,8 @@
 
 问题： 有两张图，想把一张的转换为另一张的风格
 
+<img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{base}" title="\mathbf{I}_{base}" />
+
 `$\mathbf{I}_{base}$`为内容图像， `$\mathbf{I}_{style}$`为风格图像, `$\mathbf{I}_{?}$`为合成的图像
 
 现在想要的结果是`$\mathbf{I}_{?}$`跟`$\mathbf{I}_{base}$`在内容上相似，`$\mathbf{I}_{?}$`跟`$\mathbf{I}_{style}$`在风格上相似。
