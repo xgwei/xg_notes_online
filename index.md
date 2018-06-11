@@ -15,6 +15,8 @@
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=E=\left&space;\|&space;f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base})&space;\right&space;\|_{anyerror}&plus;\left&space;\|&space;f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style})&space;\right&space;\|_{anyerror}&plus;TV(\mathbf{I}_{?})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E=\left&space;\|&space;f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base})&space;\right&space;\|_{anyerror}&plus;\left&space;\|&space;f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style})&space;\right&space;\|_{anyerror}&plus;TV(\mathbf{I}_{?})" title="E=\left \| f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base}) \right \|_{anyerror}+\left \| f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style}) \right \|_{anyerror}+TV(\mathbf{I}_{?})" /></a>
 
+<img src="https://latex.codecogs.com/gif.latex?E=\left&space;\|&space;f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base})&space;\right&space;\|_{anyerror}&plus;\left&space;\|&space;f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style})&space;\right&space;\|_{anyerror}&plus;TV(\mathbf{I}_{?})" title="E=\left \| f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base}) \right \|_{anyerror}+\left \| f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style}) \right \|_{anyerror}+TV(\mathbf{I}_{?})" />
+
 ```math
 E=\left \| f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base}) \right \|_{anyerror}+\left \| f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style}) \right \|_{anyerror}+TV(\mathbf{I}_{?})
 ```
