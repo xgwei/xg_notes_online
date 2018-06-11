@@ -1,10 +1,6 @@
 
 问题： 有两张图，想把一张的转换为另一张的风格
 
-![equation](http://latex.codecogs.com/svg.latex?gain%20%3D%20talent%20%2B%20%5Csum_%7Bn%3Dtoday%7D%5E%7B%5Cinfty%7D%5Csigma%28work%29)
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=\mathbf{I}_{?}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{?}" title="\mathbf{I}_{?}" /></a>
-
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{base}" title="\mathbf{I}_{base}" />为内容图像,
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{style}" title="\mathbf{I}_{style}" />为风格图像,
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{?}" title="\mathbf{I}_{?}" />为合成的图像
@@ -12,8 +8,6 @@
 现在想要的结果是<img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{?}" title="\mathbf{I}_{?}" />跟<img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{base}" title="\mathbf{I}_{base}" />在内容上相似，<img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{?}" title="\mathbf{I}_{?}" />跟<img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{style}" title="\mathbf{I}_{style}" />在风格上相似。
 
 可以写出个目标函数了：
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=E=\left&space;\|&space;f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base})&space;\right&space;\|_{anyerror}&plus;\left&space;\|&space;f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style})&space;\right&space;\|_{anyerror}&plus;TV(\mathbf{I}_{?})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E=\left&space;\|&space;f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base})&space;\right&space;\|_{anyerror}&plus;\left&space;\|&space;f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style})&space;\right&space;\|_{anyerror}&plus;TV(\mathbf{I}_{?})" title="E=\left \| f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base}) \right \|_{anyerror}+\left \| f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style}) \right \|_{anyerror}+TV(\mathbf{I}_{?})" /></a>
 
 <img src="https://latex.codecogs.com/gif.latex?E=\left&space;\|&space;f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base})&space;\right&space;\|_{anyerror}&plus;\left&space;\|&space;f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style})&space;\right&space;\|_{anyerror}&plus;TV(\mathbf{I}_{?})" title="E=\left \| f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base}) \right \|_{anyerror}+\left \| f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style}) \right \|_{anyerror}+TV(\mathbf{I}_{?})" />
 
