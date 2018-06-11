@@ -1,5 +1,9 @@
 
+## 试用个markdwon做笔记
+
 ## 本文是我学习keras示例程序neural style tranfer 的一些记录
+
+xiguang.wei@gmail.com
 
 问题： 有两张图，想把一张的转换为另一张的风格
 
@@ -12,10 +16,6 @@
 可以写出个目标函数了：
 
 <img src="https://latex.codecogs.com/gif.latex?E=\left&space;\|&space;f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base})&space;\right&space;\|_{anyerror}&plus;\left&space;\|&space;f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style})&space;\right&space;\|_{anyerror}&plus;TV(\mathbf{I}_{?})" title="E=\left \| f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base}) \right \|_{anyerror}+\left \| f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style}) \right \|_{anyerror}+TV(\mathbf{I}_{?})" />
-
-```math
-E=\left \| f_{content}(\mathbf{I}_{?})-f_{content}(\mathbf{I}_{base}) \right \|_{anyerror}+\left \| f_{style}(\mathbf{I}_{?})-f_{style}(\mathbf{I}_{style}) \right \|_{anyerror}+TV(\mathbf{I}_{?})
-```
 
 content loss要求形状相似，style loss要求styple相似，TV loss 只是想让噪声小点看不出破绽
 各个error之间当然要有个常数来确定下各自的权重。 有了这个函数，只要能求导，就能解出来了。
