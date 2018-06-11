@@ -2,7 +2,7 @@
 问题： 有两张图，想把一张的转换为另一张的风格
 
 ![equation](http://latex.codecogs.com/svg.latex?gain%20%3D%20talent%20%2B%20%5Csum_%7Bn%3Dtoday%7D%5E%7B%5Cinfty%7D%5Csigma%28work%29)
-
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mathbf{I}_{?}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{?}" title="\mathbf{I}_{?}" /></a>
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{base}" title="\mathbf{I}_{base}" />为内容图像,
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{style}" title="\mathbf{I}_{style}" />为风格图像,
 <img src="https://latex.codecogs.com/gif.latex?\mathbf{I}_{?}" title="\mathbf{I}_{?}" />为合成的图像
