@@ -1,1 +1,1 @@
-## 试用个markdwon做笔记## 本文是我学习keras示例程序neural style tranfer 的一些记录xiguang.wei@gmail.com[读neural style transfer的一些记录](./Notes/neural_style_transfer_note/nerual_style_tranfer_notes_xg.md)
+## 试用个markdwon做笔记## 本文是我的一些笔记，和个人的思考，部分内容图片引用自一些博客，其他废话是我的一点理解。xiguang.wei@gmail.com[读neural style transfer的一些记录](./Notes/neural_style_transfer_note/nerual_style_tranfer_notes_xg.md)[from RCNN 开始，fast， faster, YOLO v1,2,3, SSD，再往后应该怎样呢？？？](./Notes/fromRCNN2xxx/fromRCNN_notes_xg.md)
